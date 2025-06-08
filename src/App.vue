@@ -6,7 +6,6 @@
     <SliderPuzzle :puzzleId="selectedPuzzleID"/>
   </div>
 </template>
-hhh
 <script>
 import SliderPuzzle from "./components/SliderPuzzle.vue";
 import PuzzlePage from "./components/Puzzles.vue";
