@@ -1,16 +1,12 @@
 <template>
   <div id="app">
-<<<<<<< HEAD
     <h1>KEVIN MUTORA @Puzzle Game</h1>
-=======
-    <h1>Ne.Dro @Puzzle Game</h1>
->>>>>>> 1a3f8f01dbbf0a6c1496c153dec8e471354ba955
     <PuzzlePage @puzzle-changed="($event) => (selectedPuzzleID = $event)" />
     <RecordsPage />
     <SliderPuzzle :puzzleId="selectedPuzzleID"/>
   </div>
 </template>
-
+hhh
 <script>
 import SliderPuzzle from "./components/SliderPuzzle.vue";
 import PuzzlePage from "./components/Puzzles.vue";
